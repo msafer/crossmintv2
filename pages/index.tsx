@@ -55,7 +55,7 @@ const Home: NextPage = (props: any) => {
               price={parseFloat(props.contractData.data.tokenPrice)} 
               setQuantity={setMintQuantity} 
               quantity={mintQuantity} 
-              decentLink={'https://hq.decent.xyz/137/Editions/0xC6FeCF72687baA1dC1584d0Af26227858895D38c'} 
+              decentLink={'https://hq.decent.xyz/137/Editions/0xA8a3c8de62Eb791fbf0a7A10991fE02e70f1801F'} 
               state={creditCard} 
               clientId={process.env.NEXT_PUBLIC_CROSSMINT_CLIENTID}
               activeChain={137}
