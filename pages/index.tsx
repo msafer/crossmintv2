@@ -80,7 +80,7 @@ export default Home;
 
 export async function getStaticProps() {
   const CHAINID = 137;
-  const CONTRACT_ADDRESS = '0xC6FeCF72687baA1dC1584d0Af26227858895D38c';
+  const CONTRACT_ADDRESS = '0xA8a3c8de62Eb791fbf0a7A10991fE02e70f1801F';
   let contractData = await getReleaseDetails(CHAINID, CONTRACT_ADDRESS)
   return {
     props: {
